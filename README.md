@@ -22,7 +22,7 @@ as a submodule:
 
 You then need to tell Octopress to "use" the new theme.
 
-    rake install[theory-theme]
+    rake 'install[theory-theme]'
 
 Test it out by running `rake generate && rake preview`.
 
@@ -34,8 +34,8 @@ Updating the Theme
     cd .themes/theory-theme
     git pull
     cd ../..
-    rake update_source[theory-theme]
-    rake update_style[theory-theme]
+    rake 'update_source[theory-theme]'
+    rake 'update_style[theory-theme]'
     
 Done, test it with `rake generate && rake preview`.
 
@@ -46,8 +46,8 @@ Done, test it with `rake generate && rake preview`.
 2. Copy it into your `.themes` directory.
 3. Update it:
 
-        rake update_source[theory-theme]
-        rake update_style[theory-theme]
+        rake 'update_source[theory-theme]'
+        rake 'update_style[theory-theme]'
 
 Done, test it with `rake generate && rake preview`.
 
