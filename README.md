@@ -51,8 +51,11 @@ Done, test it with `rake generate && rake preview`.
 
 Done, test it with `rake generate && rake preview`.
 
-## License The theme is licensed under the "Simplified BSD license"
-(2-clause), for the exact terms please see the [`LICENSE` file].
+License
+-------
+
+This theme is licensed under the "Simplified BSD license" (2-clause). For the
+exact terms please see the [`LICENSE` file].
 
 [Octopress]: http://octopress.org/
 [Aron Cedercrantz]: http://aron.cedercrantz.com/
