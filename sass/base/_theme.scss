@@ -74,11 +74,14 @@ a {
     background-color: lighten($link-color, 50);
     border-color: $link-color;
   }
+  &:hover * {
+    background-color: transparent;
+  }
 }
 aside.sidebar a {
   @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
 }
-a {
+a, a * {
   @include transition(color,border,background .3s);
 }
 
