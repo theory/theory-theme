@@ -88,6 +88,13 @@ body {
 
 #content { > div, > article { width: 100%; }}
 
+/* http://stackoverflow.com/a/23083463/79202 */
+#content iframe {
+   width: 10px;
+   min-width: 100%;
+   *width: 100%;
+}
+
 aside.sidebar {
   float: none;
   padding: 0 $pad-min 1px;
